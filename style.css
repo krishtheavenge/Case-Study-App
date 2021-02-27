@@ -1,0 +1,82 @@
+body{
+    font-family: 'Sonsie One', cursive;
+    background: linear-gradient(0.100turn,#d2e906, #fc0606);
+}
+.header img{
+    width: 100px;
+    border-radius: 10px;
+    box-shadow: 8px 5px 1px black;
+}
+.header{
+    background-color: white;
+    color: black;
+    background: linear-gradient(#90fa06, #ee9c04);
+}
+.main{
+    background-color: rgb(250, 145, 8);
+    border: 3px solid white;
+    padding: 10px;
+   border-radius: 10px;
+   margin-top: 110px;
+    margin-left: 50px;
+}
+.main label{
+     border-radius: 10px;
+    background-color: white;
+    width: 300px;
+    padding: 10px;
+    box-shadow: 5px 5px 4px black;
+    margin-bottom: 0px;
+    font-size: 20px;
+}
+#cam, #result{ 
+    width:300px;
+    height:350px;  
+     animation-name: cool;animation-duration: 3s;animation-iteration-count: infinite;
+}@keyframes cool{
+    from{
+        box-shadow: 12px 24px 100px white;
+    }
+    to{
+        box-shadow: 12px 24px 100px aqua;
+    }
+}    
+   
+
+
+.main button{
+    width: 300px;
+    box-shadow: 5px 5px 18px black;
+    font-size: 20px;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+.footer_div{
+    margin-bottom: 50px;
+    margin-left: 50px;
+    width: 80%;
+}
+.footer_div h4{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 80%;
+    height: 15%;
+}
+.footer_div img{
+    width: 10%;
+}
+.copy_right{
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+   background-color: rgb(12, 221, 221);
+   line-height: 3;
+   color: black;
+   text-shadow:1px 1px black;
+   font-size: medium;
+}
+.footer_div span{
+    color: black;
+}
